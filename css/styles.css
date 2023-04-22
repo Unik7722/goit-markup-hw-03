@@ -112,6 +112,10 @@ body{
   line-height: 1.5;
   letter-spacing: 2%;
 }
+.header{
+  border-bottom: 1px solid #e7e9fc; 
+}
+ 
 
 .header-container{
   display: flex;
@@ -119,6 +123,7 @@ body{
   margin: auto;
   padding-top: 24px;
   padding-bottom: 24px;
+   
    }
 
   .header-nav{
@@ -200,16 +205,15 @@ padding-bottom: 24px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-family: "Roboto", sans-serif;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     padding: 16px 32px;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
+    display: block;
     gap: 10px;
-    margin: auto;
+    margin:0 auto;
       }
 
   .hero-button:hover,
@@ -292,48 +296,43 @@ padding-bottom: 24px;
   }
   /* footer */
   .footer-cont{
-    margin-top: 100px;
-    margin-left: 156px;
-    display:flex;
-    flex-direction: column;    
+   padding: 100px 0;
   }
-
+  
+   
   .footer-style{
-    background-color: var(--logo-dark);
-    height: 312px;
-    padding: 100px 0;
-
-        
+    background-color: var(--logo-dark);               
       }
- .logo-footer{
-    align-items: center;
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
+ .logo-footer{     
+    padding: 100px 0 15px 0;
+     }
 
   .logo-light{
     color: var(--text-footer);
-   
-  }
+     }
 
   .footer-text{
     font-family:'Raleway', sans-serif;
-    font-size: 18px;
-    line-height: 1.17;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-footer);
     margin-top: 0; 
     margin-bottom: 0;
-     
+    
+   
   }
 
   /* Portfolio */
 
 .filter-btn{
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  
   gap: 24px;
+  margin-bottom: 72px;
+  margin-top: 0;
 }
 
   /* Section 1 button */
@@ -350,12 +349,12 @@ padding-bottom: 24px;
   flex-direction: row;
   align-items: center;
   padding: 12px 24px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
-  width: 69px;
-  height: 48px;
-  
+  box-sizing: border-box;
+
       }
+
   .menu-button:hover,
   .menu-button:focus{
   background: var(--activ-btn-link);
