@@ -252,6 +252,9 @@ padding-bottom: 24px;
    }  
 
   /* Section 3 */
+  .gallery-class{
+  padding-bottom: 120px; 
+  }
   .gallery{
     font-weight: 700;
     font-size: 36px;
@@ -260,11 +263,14 @@ padding-bottom: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--logo-dark);
-     }
 
-  .bottom-gallery{
-    padding-bottom: 72px;
-  } 
+    margin-bottom: 72px;
+     }
+  .galleryli{
+    width: calc((100% - 48px) / 3);
+  }
+  
+  
      /* --content-element (c section 2) -- */
        .content-element
 
