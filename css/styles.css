@@ -431,14 +431,17 @@ padding-bottom: 24px;
     border-radius: 4px;
 
   }
+  
+  .card-btn{
+    border: 1px solid var(--border-card);
+  }
+
   .card-btn:hover,
   .card-btn:focus{
-    border: 1px solid var(--border-card);
     border: 1px solid transparent;
     border: 1px solid transparent;
-
-
-  }
+  }  
+  
   .foto-calc{
   width: calc((100% - 48px) / 3);
   }
