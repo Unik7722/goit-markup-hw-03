@@ -278,8 +278,7 @@ padding-bottom: 24px;
 
   /* Section 4 */
   .our-team{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 ; 
   }
   .teamcl{
     margin-bottom: 72px;
@@ -288,7 +287,9 @@ padding-bottom: 24px;
   .content-element
 
   .company{
-    background-color:  #F4F4FD}
+    background-color:  #F4F4FD
+    }
+
   .fon-title{
     background-color: #FFFFFF;
 
@@ -396,6 +397,7 @@ padding-bottom: 24px;
   .menu-button:focus{
   background: var(--activ-btn-link);
   color: var(--color-white);
+  border: 1px solid transparent;
      }
   .portf-title{
   font-weight: 500;
@@ -434,16 +436,7 @@ padding-bottom: 24px;
 
   }
   
-  .card-btn{
-    border: 1px solid var(--border-card);
-  }
-
-  .card-btn:hover,
-  .card-btn:focus{
-    border: 1px solid transparent;
-    border: 1px solid transparent;
-  }  
-  
+    
   .foto-calc{
   width: calc((100% - 48px) / 3);
   }
