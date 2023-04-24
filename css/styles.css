@@ -223,9 +223,11 @@ padding-bottom: 24px;
   }
 
   /* Section 2 main page */
-  .hidclass{
-   margin-bottom: 8px;
-  }
+ .hidclass{
+  margin-bottom: 8px;
+}
+   
+  
   
   .content-element{
     display: flex;
@@ -241,7 +243,7 @@ padding-bottom: 24px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+    margin-bottom: 8px;
      }
    .decs-text{
     font-weight: 400;
@@ -276,7 +278,8 @@ padding-bottom: 24px;
 
   /* Section 4 */
   .our-team{
-    padding: 120px 0 ;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .teamcl{
     margin-bottom: 72px;
@@ -326,13 +329,12 @@ padding-bottom: 24px;
     
   }
   /* footer */
-  .footer-cont{
-   padding: 100px 0;
-  }
   
    
   .footer-style{
-    background-color: var(--logo-dark);               
+    background-color: var(--logo-dark);
+    
+    padding: 100px 0;
       }
 
  .logo-footer{     
@@ -359,12 +361,12 @@ padding-bottom: 24px;
 
   /* Portfolio */
 
+
 .filter-btn{
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
   margin-bottom: 72px;
   
 
@@ -412,7 +414,7 @@ padding-bottom: 24px;
   /* --Portfolio card-- */
 
   .card{
-    padding-bottom: 120px;
+    padding: 96px 0 120px;
   }
     
   
