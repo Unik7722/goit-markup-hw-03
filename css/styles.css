@@ -277,9 +277,10 @@ padding-bottom: 24px;
        .content-element
 
   /* Section 4 */
-  .our-team{
-    padding: 120px 0 ; 
-  }
+.our-team{
+  padding: 120px 0 120px 0;
+}
+
   .teamcl{
     margin-bottom: 72px;
   }
