@@ -115,7 +115,9 @@ body{
   letter-spacing: 2%;
 }
 .header{
-  border-bottom: 1px solid #e7e9fc; 
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px; 
 }
  
 
@@ -123,8 +125,7 @@ body{
   display: flex;
   align-items: center;
   margin: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
    
    }
 
@@ -179,7 +180,7 @@ padding-bottom: 24px;
 
   .hero{
     background-color: var(--logo-dark);
-    height: 600px;
+   
     
     padding: 188px 0;
     
@@ -363,8 +364,9 @@ padding-bottom: 24px;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 72px;
-  padding-top:  96px;
+  padding-top: 96px;
+  margin-bottom: 72px;
+  
 
 }
 
