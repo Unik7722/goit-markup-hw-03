@@ -282,9 +282,8 @@ padding-bottom: 24px;
   
 
 
-  .teamcl{
-    margin-bottom: 72px;
-  }
+  .teamcl
+      
    /* --content-element (c section 2) -- */
   .content-element
 
@@ -306,6 +305,8 @@ padding-bottom: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--logo-dark);
+
+    margin-bottom: 72px;
   }
   .team-title{
    font-weight: 500;
