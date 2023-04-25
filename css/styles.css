@@ -28,6 +28,7 @@ body{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+   
     
   }
   .bottom{
@@ -278,7 +279,8 @@ padding-bottom: 24px;
 
   /* Section 4 */
 .company{
-  padding: 120px 0 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
   .teamcl{
