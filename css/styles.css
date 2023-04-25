@@ -4,7 +4,7 @@ html{
 *,
 *::before,
 *::after{
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 :root{
@@ -279,12 +279,14 @@ padding-bottom: 24px;
        .content-element
 
   /* Section 4 */
-  .sectionfour{
-    padding: 120px 0;
+  .section-color{
+    background-color: var(--text-footer);
+    
   }
+   
+  .bottom
   
-      
-   /* --content-element (c section 2) -- */
+  /* --content-element (c section 2) -- */
   .content-element
 
   .company{
