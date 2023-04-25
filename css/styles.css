@@ -279,11 +279,11 @@ padding-bottom: 24px;
        .content-element
 
   /* Section 4 */
-.gallery-class
+  .section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   
-
-
-  .teamcl
       
    /* --content-element (c section 2) -- */
   .content-element
