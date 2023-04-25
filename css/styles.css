@@ -279,9 +279,8 @@ padding-bottom: 24px;
        .content-element
 
   /* Section 4 */
-  .section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+  .sectionfour{
+    padding: 120px 0;
   }
   
       
