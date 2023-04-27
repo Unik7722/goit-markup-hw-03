@@ -343,13 +343,14 @@ padding-bottom: 24px;
    
   .footer-style{
     background-color: var(--logo-dark);
-    height: 312px;
+    height: 314px;
+    padding: 100px 0;
     
       }
 
  .logo-footer{ 
-    padding-top: 100px;    
-    padding-bottom: 16px;
+     
+    margin-bottom: 16px;
     display: inline-block;
   
      }
